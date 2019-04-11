@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">mobile-assignment</string>
+
+
+    <!-- common -->
+    <string name="no_network_message">No Internet connection. Please try later!</string>
+    <string name="request_timed_out_message">Unable to connect to server. Please check internet connection and try
+        again.
+    </string>
+    <string name="server_error">Some server error occurred. Please try again later.</string>
+    <string name="internal_error">Some internal error occurred. Please try again later.</string>
+    <string name="no_feed_found">No feed found</string>
+    <string name="loading">loading...</string>
+</resources>

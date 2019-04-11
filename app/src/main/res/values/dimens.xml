@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dia_user_thumb">55dp</dimen>
+    <dimen name="padding_feed">10dp</dimen>
+    <dimen name="spacing">10dp</dimen>
+    <dimen name="radius_min">10dp</dimen>
+</resources>
