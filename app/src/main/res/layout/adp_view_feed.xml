@@ -52,7 +52,9 @@
                 android:id="@+id/sv_feed_image_first"
                 app:roundedCornerRadius="@dimen/radius_min"
                 android:visibility="gone"
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                app:placeholderImage="@drawable/place_holder_ai_b"
+        />
         <android.support.v7.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:id="@+id/rv_feed_images"

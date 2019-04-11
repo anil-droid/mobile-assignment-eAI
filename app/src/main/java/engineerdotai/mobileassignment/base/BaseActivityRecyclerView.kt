@@ -84,7 +84,7 @@ abstract class BaseActivityRecyclerView<T, E, VH : RecyclerView.ViewHolder?, A :
                 val linearLayoutManager = recyclerView.layoutManager as LinearLayoutManager?
 
                 if (!isLoading && isLoadMoreNeeded && needThisLoadMoreInApi) {
-                    if (linearLayoutManager != null && linearLayoutManager.findLastCompletelyVisibleItemPosition() == dataList.size - 1) {
+                    if (linearLayoutManager != null && linearLayoutManager.findLastVisibleItemPosition() == dataList.size - 1) {
                         //bottom of list!
                         isLoading = true
                         loadDataFromApi()
